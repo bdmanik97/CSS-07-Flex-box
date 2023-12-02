@@ -1,0 +1,33 @@
+
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+}
+body{
+	background-color:rgba(50, 0, 255, 0.2);
+}
+.header1{
+	height: 50px;
+	display: flex;
+	background-color: skyblue;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 100px;
+}
+.header1 .a1{
+	height: 50px;
+	width: 150px;
+}
+.header1 .navbar a{
+	text-decoration: none;
+	font-weight: bolder;
+	margin-left: 50px;
+}
+.header1 .navbar2 .input1{
+	margin-top: 10px;
+	color: red;
+}
+.header1 a:hover{
+	color: red;
+}
